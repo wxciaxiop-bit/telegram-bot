@@ -27,7 +27,7 @@ logging.basicConfig(
     level=logging.INFO
 )
 
-BOT_TOKEN = "7952589380:AAFiZsU9Q8503AJ_xfpB_E1zUzh-EamWi18"
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 BASE_URL = "https://api.bigwinqaz.com/api/webapi/"
 IGNORE_SSL = True
 WIN_LOSE_CHECK_INTERVAL = 2
